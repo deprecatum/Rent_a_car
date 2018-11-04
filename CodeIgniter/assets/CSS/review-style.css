@@ -1,0 +1,165 @@
+.navbar-custom{
+    position: unset;
+    background: rgb(45, 53, 58);
+}
+
+.main-body{
+}
+
+body{
+    height:100%;
+}
+
+.content{
+    display: block;
+}
+
+#force-login{
+    display:block;
+    margin:30px;
+    height:600px;
+}
+
+#force-login h1{
+    text-align:center;
+    display:block;
+    width:300px;
+    margin:auto;
+}
+
+/*review page elements*/
+#select-bar{
+    display:block;
+    width:75%;
+    margin:20px auto 20px auto;
+}
+
+#container-info{
+    background-color: rgb(229, 229, 229);
+    color: black;
+    width:75%;
+    margin:20px auto 20px auto;
+    display: flex;
+}
+
+#image{
+    border-radius: 4px;
+    height: 100%;
+    float:left;
+    display: block;
+    width:25%;
+}
+
+#text-wrap{
+    padding-left:10px;
+    height: 100%;
+    width: 74%;
+    float:left;
+    display: block;
+}
+
+#scores{
+    display:flex;
+}
+
+.score{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display:flex;
+    padding-left:5px;
+    padding-right:5px;
+    border-radius: 6px;
+    margin:0px;
+    
+    align-content: space-between;   
+}
+
+.inner-span{
+    padding-left:2px;
+    padding-right:2px;
+    border-radius: 4px;
+    background-color: white;
+    color:black;
+}
+
+#score1{
+    background-color:rgb(2, 125, 207);
+}
+#score2{
+    background-color:rgb(233, 134, 5);
+}
+
+
+#form-container{
+    padding:10px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+    width: 75%;
+    margin:20px auto 20px auto;
+}
+
+#form-container p{
+    margin:5px 0px 5px 0;
+}
+
+#form-container h2{
+    width: 100%;
+    display: block; 
+    margin-top: 10px;
+}
+
+.form-element{
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border:1px;
+}
+
+.highlight{
+    display:inline-flex;
+    margin:5px;
+}
+
+.highlight:hover{
+    color:rgb(32, 211, 211);
+}
+
+.highlight ~ input:checked{
+    color:red;
+}
+
+#form-button{
+    color:white;
+    background-color: rgb(233, 134, 5);
+    border-radius: 2px;
+    border: 0px;
+    margin-bottom:20px;
+}
+
+#aval-text{
+    height:90px;
+    text-overflow: clip;
+}
+/*review page elements end*/
+
+@media only screen and (max-width:600px){
+    #container-info{
+        display:block;
+    }
+    #image{
+        display:block;
+        float:unset;
+        width:100%;
+        height:50%;
+    }
+    #scores{
+        display:block;
+    }
+    #text-wrap{
+        display:block;
+        float:unset;
+        width:100%;
+        
+        height:50%;
+    }
+}

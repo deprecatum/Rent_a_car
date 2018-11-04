@@ -1,0 +1,23 @@
+body{
+    min-height:100%;
+}
+/*make navbar non sticky*/
+.navbar-custom {
+    position: unset;
+    background: rgb(45, 53, 58);
+}
+
+#main-body{
+    display:block;
+    min-height:100%;
+}
+
+.container{
+    color:black;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.15);
+
+    border-radius: 5px;
+    margin:10px auto 10px auto;
+
+}
